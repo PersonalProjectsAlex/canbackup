@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-SemiBold.ttf">
+            <string>NunitoSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CanSizeCollectionCell" id="gTV-IL-0wX" customClass="CanSizeCollectionCell" customModule="CanLove" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="48" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="48" height="44"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UrN-Fy-MmT">
+                        <rect key="frame" x="0.0" y="0.0" width="48" height="31"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mediano" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb3-uh-B2o">
+                        <rect key="frame" x="0.0" y="33" width="48" height="11"/>
+                        <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="11"/>
+                        <color key="textColor" red="0.10980392160000001" green="0.27450980390000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UrN-Fy-MmT" secondAttribute="trailing" id="Ddr-I2-FcC"/>
+                <constraint firstItem="UrN-Fy-MmT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KR5-jp-ktw"/>
+                <constraint firstItem="gb3-uh-B2o" firstAttribute="trailing" secondItem="UrN-Fy-MmT" secondAttribute="trailing" id="abX-mc-313"/>
+                <constraint firstItem="UrN-Fy-MmT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eUB-TK-gOD"/>
+                <constraint firstItem="gb3-uh-B2o" firstAttribute="top" secondItem="UrN-Fy-MmT" secondAttribute="bottom" constant="2" id="ofO-mR-kJh"/>
+                <constraint firstAttribute="bottom" secondItem="gb3-uh-B2o" secondAttribute="bottom" id="p89-C4-ljv"/>
+                <constraint firstItem="gb3-uh-B2o" firstAttribute="leading" secondItem="UrN-Fy-MmT" secondAttribute="leading" id="pJS-ww-QrU"/>
+                <constraint firstAttribute="bottom" secondItem="UrN-Fy-MmT" secondAttribute="bottom" constant="13" id="tSs-e1-tEl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="48" height="44"/>
+            <connections>
+                <outlet property="breedLabel" destination="gb3-uh-B2o" id="6cA-a0-nJy"/>
+                <outlet property="sizeImageView" destination="UrN-Fy-MmT" id="ZZf-eQ-sxC"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="151.12443778110946"/>
+        </collectionViewCell>
+    </objects>
+</document>

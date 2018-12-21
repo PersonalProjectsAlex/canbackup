@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-SemiBold.ttf">
+            <string>NunitoSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentRow" customModule="CanLove" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="PaymentRow" customModule="CanLove" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qln-X1-c4a" customClass="DLRadioButton">
+                    <rect key="frame" x="16" y="25" width="343" height="36"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="17"/>
+                    <state key="normal" title="            Button" backgroundImage="backgroundcard">
+                        <color key="titleColor" red="0.23137254900000001" green="0.35294117650000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="indicatorColor">
+                            <color key="value" red="0.23137254900000001" green="0.35294117650000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                            <color key="value" red="0.23137254900000001" green="0.35294117650000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="paymentActionButton:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="c6y-1l-yVl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qln-X1-c4a" secondAttribute="trailing" constant="16" id="0cD-a9-FDh"/>
+                <constraint firstItem="Qln-X1-c4a" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="1ae-WS-wsD"/>
+                <constraint firstItem="Qln-X1-c4a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="4sO-aN-k3T"/>
+                <constraint firstItem="Qln-X1-c4a" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="Qpx-id-nbu"/>
+                <constraint firstItem="Qln-X1-c4a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="YOg-ic-av2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Qln-X1-c4a" secondAttribute="bottom" constant="25" id="xQr-Mg-sN0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="optionButton" destination="Qln-X1-c4a" id="PSi-lx-rFf"/>
+            </connections>
+            <point key="canvasLocation" x="136.80000000000001" y="-235.68215892053973"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgroundcard" width="261" height="25"/>
+    </resources>
+</document>

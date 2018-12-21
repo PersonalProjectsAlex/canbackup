@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChoosePetCollectionCell" id="gTV-IL-0wX" customClass="ChoosePetCollectionCell" customModule="CanLove" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="65" height="67"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="w2p-5b-g8E">
+                        <rect key="frame" x="36" y="2" width="25" height="25"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="QCJ-lE-i8u" customClass="RoundedImageView" customModule="CanLove" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.27450980390000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="Vda-oM-v5Q"/>
+                                    <constraint firstAttribute="height" constant="25" id="Zp9-DS-Iv1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="QCJ-lE-i8u" firstAttribute="top" secondItem="w2p-5b-g8E" secondAttribute="top" id="FpJ-0K-DAs"/>
+                            <constraint firstItem="QCJ-lE-i8u" firstAttribute="leading" secondItem="w2p-5b-g8E" secondAttribute="leading" id="iqG-S4-Pcc"/>
+                            <constraint firstAttribute="height" constant="25" id="nZh-jh-E1H"/>
+                            <constraint firstAttribute="width" constant="25" id="wCf-ga-fK6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wON-Ne-cxX"/>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CEt-qS-MXS" customClass="RoundedImageView" customModule="CanLove" customModuleProvider="target">
+                        <rect key="frame" x="7" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="9eQ-Zh-gwz"/>
+                            <constraint firstAttribute="height" constant="50" id="9ho-By-JGh"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="w2p-5b-g8E" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="9aq-zw-dIF"/>
+                <constraint firstItem="CEt-qS-MXS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="Q04-d1-eLd"/>
+                <constraint firstItem="CEt-qS-MXS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="QZp-9q-cp9"/>
+                <constraint firstAttribute="trailing" secondItem="w2p-5b-g8E" secondAttribute="trailing" constant="4" id="rWA-XJ-Vbe"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="65" height="67"/>
+            <connections>
+                <outlet property="canImageView" destination="CEt-qS-MXS" id="RYM-iM-bt5"/>
+                <outlet property="selectedImageView" destination="QCJ-lE-i8u" id="tgb-nE-Hy2"/>
+            </connections>
+            <point key="canvasLocation" x="149.59999999999999" y="161.46926536731635"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="check" width="56" height="68"/>
+    </resources>
+</document>

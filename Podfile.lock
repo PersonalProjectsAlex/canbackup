@@ -1,0 +1,328 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CalendarKit (0.4.1):
+    - DateToolsSwift
+    - Neon
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - CodableFirebase (0.2.1)
+  - Cosmos (16.0.0)
+  - CTPanoramaView (1.1)
+  - DateTimePicker (2.1.1)
+  - DateToolsSwift (4.0.0)
+  - DLRadioButton (1.4.12)
+  - DropDown (2.3.2)
+  - DynamicBlurView (2.0.2)
+  - EasyTipView (2.0.1)
+  - FacebookCore (0.3.2):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.35)
+  - FacebookLogin (0.3.2):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3.2)
+    - FBSDKCoreKit (~> 4.35)
+    - FBSDKLoginKit (~> 4.35)
+  - FBSDKCoreKit (4.35.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.35.0):
+    - FBSDKCoreKit
+  - Firebase (3.17.0):
+    - Firebase/Core (= 3.17.0)
+  - Firebase/Auth (3.17.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - Firebase/Database (3.17.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.2)
+  - Firebase/Messaging (3.17.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.3)
+  - Firebase/Storage (3.17.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.1.0)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FirebaseMessaging (1.2.3):
+    - FirebaseAnalytics (~> 3.8)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (1.1.0):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlacesSearchController (0.2.1)
+  - GoogleSignIn (4.2.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - Hero (1.3.0)
+  - HexColors (6.0.0)
+  - ImageSlideshow (1.6.1):
+    - ImageSlideshow/Core (= 1.6.1)
+  - ImageSlideshow/Core (1.6.1)
+  - ImageSlideshow/Kingfisher (1.6.1):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - ImageSlideshow/SDWebImage (1.6.1):
+    - ImageSlideshow/Core
+    - SDWebImage (< 5.0, >= 3.7)
+  - InputMask (4.0.2)
+  - IQKeyboardManagerSwift (5.0.8)
+  - JTAppleCalendar (7.1.5)
+  - Kingfisher (4.8.1)
+  - lottie-ios (2.5.0)
+  - Neon (0.4.0)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - PopupDialog (0.8.1):
+    - DynamicBlurView (~> 2.0)
+  - Protobuf (3.6.1)
+  - RevealingSplashView (0.5.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SendBirdSDK (3.0.109)
+  - SkyFloatingLabelTextField (3.5.1)
+  - Stripe (13.2.0)
+  - SwiftLocation (2.0.7)
+  - SwiftLuhn (1.0.0)
+  - SwiftMessages (4.1.4):
+    - SwiftMessages/App (= 4.1.4)
+  - SwiftMessages/App (4.1.4)
+  - SwiftMoment (0.7)
+  - SwiftyJSON (4.1.0)
+  - TableFlip (1.2)
+  - TagListView (1.3.1)
+  - TLPhotoPicker (1.7.2)
+  - TransitionButton (0.5.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CalendarKit
+  - Charts
+  - CodableAlamofire
+  - CodableFirebase
+  - Cosmos
+  - CTPanoramaView (~> 1.0)
+  - DateTimePicker
+  - DLRadioButton (~> 1.4)
+  - DropDown
+  - EasyTipView (~> 2.0.0)
+  - FacebookCore
+  - FacebookLogin
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - Google/SignIn
+  - GoogleMaps
+  - GooglePlacesSearchController
+  - Hero
+  - HexColors
+  - ImageSlideshow (~> 1.5)
+  - ImageSlideshow/Kingfisher
+  - ImageSlideshow/SDWebImage
+  - InputMask
+  - IQKeyboardManagerSwift (~> 5.0)
+  - JTAppleCalendar (~> 7.0)
+  - lottie-ios
+  - NVActivityIndicatorView
+  - PopupDialog (~> 0.7)
+  - RevealingSplashView
+  - SDWebImage (~> 4.0)
+  - SendBirdSDK
+  - SkyFloatingLabelTextField (~> 3.0)
+  - Stripe
+  - SwiftLocation
+  - SwiftLuhn
+  - SwiftMessages
+  - SwiftMoment
+  - SwiftyJSON
+  - TableFlip
+  - TagListView (~> 1.0)
+  - TLPhotoPicker
+  - TransitionButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - CalendarKit
+    - Charts
+    - CodableAlamofire
+    - CodableFirebase
+    - Cosmos
+    - CTPanoramaView
+    - DateTimePicker
+    - DateToolsSwift
+    - DLRadioButton
+    - DropDown
+    - DynamicBlurView
+    - EasyTipView
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - Google
+    - GoogleMaps
+    - GooglePlacesSearchController
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - Hero
+    - HexColors
+    - ImageSlideshow
+    - InputMask
+    - IQKeyboardManagerSwift
+    - JTAppleCalendar
+    - Kingfisher
+    - lottie-ios
+    - Neon
+    - NVActivityIndicatorView
+    - PopupDialog
+    - Protobuf
+    - RevealingSplashView
+    - SDWebImage
+    - SendBirdSDK
+    - SkyFloatingLabelTextField
+    - Stripe
+    - SwiftLocation
+    - SwiftLuhn
+    - SwiftMessages
+    - SwiftMoment
+    - SwiftyJSON
+    - TableFlip
+    - TagListView
+    - TLPhotoPicker
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CalendarKit: 6bc77164e10ecd9fa4783df6172c63c59f8573ca
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  CodableFirebase: 0bf201991eeec35eb9fcd987d271ea463cf34a80
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  CTPanoramaView: 7d150988e7dfcf33ae91ceb07aec928ae32f7665
+  DateTimePicker: 69471582ced535078f1620fea98258aa2c305c83
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  EasyTipView: 1515544456d6e943240012e9be5d25d1bb766603
+  FacebookCore: fe93222bb70346730ef33b061d493e9e7a7cb1f5
+  FacebookLogin: a4e225974791c82836765a294582b4778baffc07
+  FBSDKCoreKit: 1a5b2e3ceb5ca827a53c54aa5f4a3480efff80d2
+  FBSDKLoginKit: 00a3d65d1226852f9d76dcddff01981e5e6d9c38
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FirebaseMessaging: 753d05a925e9eb8eadd09a0ffc9b808578b72fac
+  FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlacesSearchController: e53b61b7497cf40cb18ec296b1d3314c11c0a1c0
+  GoogleSignIn: 591e46382014e591269f862ba6e7bc0fbd793532
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  Hero: 3eecd3fd62dd2425cbc7e35505c557b86d5a379e
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  InputMask: b9df7a44c044f59485b2d596661e6bd4334bddb4
+  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  PopupDialog: 3d4e8e0795c3a614f407d730986c9b9af9781123
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  RevealingSplashView: 0794eecad3a8983ac11a1fe474e9a9b51b926780
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SendBirdSDK: be4cbbddb1ea088799d7cc918c985bd590b56ec2
+  SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+  Stripe: 2c69e216061d54d9c538204bb4f58bd597ddfc5b
+  SwiftLocation: 1fe2e15a5812e961496e82eeaca71d03e829e47a
+  SwiftLuhn: 20ec3fe2b00699f5b2867c0133236722b05b902d
+  SwiftMessages: 2c33fdee8b8f38dfc7e1036684456b505891da8c
+  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  TableFlip: 2ae22773412b295a7cbc54d95b44085bb28092f6
+  TagListView: 6dafd34a61021c6db72c0c8e3a044054c9854311
+  TLPhotoPicker: 5008b848b6a136c124daff3858967a08a6d0c9b8
+  TransitionButton: 20f92b3cc726b047e4df200fdab5307f33395a81
+
+PODFILE CHECKSUM: 154b200d683739fcfc14a86b47f5db3cc9ff6c42
+
+COCOAPODS: 1.5.3
